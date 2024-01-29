@@ -24,11 +24,6 @@ html {
   border: none;
 }
 
-img {
-  /* width: 1.25em; */
-  border: 0.5em solid #edddd4;
-}
-
 nav {
   display: flex;
   flex-direction: row;
