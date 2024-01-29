@@ -316,6 +316,7 @@ p {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   /* padding: 1em; */
+  font-size: 1vw;
 }
 
 footer {
