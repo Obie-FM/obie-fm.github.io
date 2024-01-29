@@ -2,7 +2,6 @@ body,
 html {
   margin: 0 auto;
   font-family: "Nunito Sans", sans-serif;
-  background-color: #283d3b;
 }
 
 .nunito-sans-regular {
@@ -222,7 +221,7 @@ h1 {
 }
 h2 {
   color: #772e25;
-  background-color: #edddd4;
+  /* background-color: #edddd4; */
   text-decoration: #772e25 overline;
   font-weight: bold;
   margin: 0 auto;
@@ -245,9 +244,9 @@ h2 {
   font-size: larger;
 }
 
-.firsthalf {
+ /* .firsthalf {
   background-color: #edddd4;
-}
+} */
 
 .intro {
   color: #c44536;
@@ -264,7 +263,7 @@ h2 {
 }
 
 .secondhalf {
-  background-color: #edddd4;
+/*  background-color: #edddd4; */
   color: #772e25;
   margin: 0 auto;
   padding-left: 20px;
@@ -297,7 +296,7 @@ p.more {
   font-weight: bold;
   font-size: larger;
   color: #772e25;
-  text-decoration: #283d3b overline;
+  text-decoration: #772e25 overline;
 }
 
 .fname,
