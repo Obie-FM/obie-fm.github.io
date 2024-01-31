@@ -201,19 +201,23 @@ span:hover {
 }
 
 h1 {
-  color: #c44536;
+  color: #edddd4;
+  background-color: #c44536;
   text-align: center;
-  font-weight: 900;
-  text-decoration: #c44536 overline;
+  font-weight: 800;
+  text-decoration: #edddd4 overline;
   display: block;
-  font-size: 2em;
   margin-block-start: 0em;
   margin-block-end: 0em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  padding-top: 1em;
-  padding-bottom: 0.5em;
+  padding-top: 1.25em;
+  padding-bottom: .5em;
+  border: 2em;
+  border-radius: 30px;
+  margin: 20px;
 }
+
 h2 {
   color: #197278;
   text-decoration: #197278 overline;
