@@ -397,6 +397,9 @@ thead {
   color: white;
 }
 
+#icon {
+    display: flex;
+    justify-content: center; }
 
 footer {
   display: block;
