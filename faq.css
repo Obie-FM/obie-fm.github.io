@@ -143,6 +143,7 @@ span:hover {
   border: none;
   color: #edddd4;
   display: flex;
+  font-weight: 700;
   justify-content: flex-start;
   flex-direction: row;
   border-radius: 0.5em;
