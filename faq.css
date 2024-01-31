@@ -310,7 +310,9 @@ h1 {
 
 
 footer {
-  display: block;
+  display: flex;
+      flex-direction: column;
+    align-items: center;;
   border-top: 0.5rem solid #edddd4;
   background-image: linear-gradient(#434447, #283d3b);
   margin-block-start: 0em;
