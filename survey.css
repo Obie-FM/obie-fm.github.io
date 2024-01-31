@@ -243,3 +243,84 @@ p {
   text-align: center;
   color: #772e25;
 }
+
+.fa {
+  padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 70%; }
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook-official {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-instagram {
+  background-image: linear-gradient(purple, orange);
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa {
+  padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 70%; }
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook-official {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-instagram {
+  background-image: linear-gradient(purple, orange);
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+
+footer {
+  display: block;
+  border-top: 0.5rem solid #edddd4;
+  background-image: linear-gradient(#434447, #283d3b);
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding: 30px;
+  margin: auto;
+}
+
+.end {
+  color: #edddd4;
+
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: auto;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
