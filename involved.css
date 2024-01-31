@@ -370,9 +370,9 @@ footer {
   padding: 30px;
   margin: auto;
       text-align: center;
-  display: flex;
+ /* display: flex;
   flex-direction: column;
-    align-items: center;
+    align-items: center; */
 }
 
 .end {
