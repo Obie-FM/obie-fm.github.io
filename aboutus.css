@@ -218,7 +218,10 @@ h1 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-top: 1.25em;
-  padding-bottom: 1.25em;
+     padding-bottom: 1em;
+    border: 2em;
+    border-radius: 30px;
+    margin: 20px;
 }
 
 h2 {
