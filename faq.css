@@ -12,6 +12,10 @@ html {
   font-variation-settings: "wdth" 100, "YTLC" 500;
 }
 
+   .icon { 
+     display: flex;
+    justify-content: center; }
+
 #hamburger {
   background: transparent;
   border: none;
