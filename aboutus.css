@@ -41,6 +41,7 @@ nav {
   background-color: #283d3b;
   align-items: center;
   border-bottom: 0.5em solid #edddd4;
+  z-index: 300;
 }
 
 @media screen and (max-width: 755px) {
@@ -173,8 +174,9 @@ span:hover {
   position: absolute;
   left: -100%;
   visibility: hidden;
-  overflow: hidden;
+  overflow: visible;
   flex-wrap: wrap;
+   z-index: 300;
 }
 
 .dropdown-content li {
@@ -209,6 +211,17 @@ span:hover {
   color: #edddd4;
   margin: 0.1em 0;
   text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 50%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
 
 h1 {
