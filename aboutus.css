@@ -37,10 +37,11 @@ html {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #283d3b;
   align-items: center;
   border-bottom: 0.5em solid #edddd4;
+  position: relative;
   z-index: 300;
 }
 
@@ -121,10 +122,47 @@ li a:hover {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 1.25em;
   background-color: #283d3b;
   display: flex;
 }
+
+span.add-label{
+ display:none;
+}
+
+#whatb4:hover span.align{
+ display:none;
+}
+
+#whatb4:hover span.add-label{
+ display:block;
+}
+
+#whob4:hover span.align{
+ display:none;
+}
+
+#whob4:hover span.add-label{
+ display:block;
+}
+
+#whyb4:hover span.align{
+ display:none;
+}
+
+#whyb4:hover span.add-label{
+ display:block;
+}
+
+
+#howb4:hover span.align{
+ display:none;
+}
+
+#howb4:hover span.add-label{
+ display:block;
+}
+
 
 .involved {
   max-width: 10em;
@@ -137,6 +175,8 @@ ul {
 .dropdown {
   max-width: 10em;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 span:hover {
@@ -176,7 +216,7 @@ span:hover {
   visibility: hidden;
   overflow: visible;
   flex-wrap: wrap;
-   z-index: 300;
+  z-index: 300;
 }
 
 .dropdown-content li {
@@ -212,6 +252,7 @@ span:hover {
   margin: 0.1em 0;
   text-decoration: none;
 }
+
 
 .sticky {
   position: fixed;
