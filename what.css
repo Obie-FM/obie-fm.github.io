@@ -375,6 +375,9 @@ thead {
 .decrim {
   text-decoration: overline #9e2a2b;
   font-weight: bold;
+  font-size: larger;
+  color: #ffffff;
+  text-shadow: #ffffff;
 }
 
 .aboutus {
