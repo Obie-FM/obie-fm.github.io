@@ -35,10 +35,11 @@ img {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #283d3b;
   align-items: center;
   border-bottom: 0.5em solid #edddd4;
+  position: relative;
   z-index: 300;
 }
 
@@ -173,6 +174,8 @@ span.add-label{
 .dropdown {
   max-width: 10em;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 span:hover {
