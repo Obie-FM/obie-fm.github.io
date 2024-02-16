@@ -120,7 +120,6 @@ li a:hover {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 1.25em;
   background-color: #283d3b;
   display: flex;
 }
