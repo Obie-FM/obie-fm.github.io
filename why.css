@@ -418,7 +418,7 @@ footer {
 
 .end {
   color: #edddd4;
-
+text-align: center;
   display: block;
   margin-block-start: 0em;
   margin-block-end: auto;
