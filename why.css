@@ -342,6 +342,9 @@ h3 {
   text-decoration: overline #990100;
 }
 
+#icons {
+  text-align:center; }
+
 .fa {
   padding: 10px;
     text-align: center;
