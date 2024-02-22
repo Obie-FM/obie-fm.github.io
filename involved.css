@@ -7,6 +7,10 @@ html {
     background-image: linear-gradient(#edddd4, #fff);
 }
 
+body {
+  margin:0;
+}
+
 .nunito-sans-regular {
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
