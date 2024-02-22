@@ -9,7 +9,7 @@ html {
 
 body {
   margin:0;
-  scroll-top-margin: 0;
+ margin-top: 0;
 }
 
 .nunito-sans-regular {
@@ -117,7 +117,6 @@ li a:hover {
   font-size: larger;
   color: #ffffff;
   text-decoration: #ffffff underline;
-  font-size: x-large;
   text-shadow: #ffffff;
 }
 
@@ -185,7 +184,6 @@ span:hover {
   font-size: larger;
   color: #ffffff;
   text-decoration: #ffffff underline;
-  font-size: x-large;
   text-shadow: #ffffff;
   transition: 0.25s;
 }
