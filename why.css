@@ -284,8 +284,8 @@ h1 {
 }
 
 h2 {
-  color: #197278;
-  text-decoration: #197278 overline;
+  color: #c44536;
+  text-decoration: #772E25 overline;
   font-weight: bold;
   margin: 0 auto;
   padding-top: 1.25em;
@@ -307,7 +307,7 @@ table {
 }
 
 .current {
-  color: #990100;
+  color: #C44536;
 }
 
 .whytext {
@@ -329,7 +329,7 @@ table {
 }
 
 .pdf {
-  color: #990100;
+  color: #772E25;
   margin: 0 auto;
   padding-top: 30px;
   padding-bottom: 1.25em;
@@ -338,12 +338,12 @@ table {
 }
 
 h3 {
-  color: #990100;
+  color: #772E25;
   margin: 0 auto;
   padding-top: 30px;
   padding-bottom: 1.25em;
   text-align: center;
-  text-decoration: overline #990100;
+  text-decoration: overline #EDDDD4;
 }
 
 #icons {
