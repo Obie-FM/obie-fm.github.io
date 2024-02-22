@@ -9,6 +9,7 @@ html {
 
 body {
   margin:0;
+  scroll-top-margin: 0;
 }
 
 .nunito-sans-regular {
