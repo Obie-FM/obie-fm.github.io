@@ -43,7 +43,7 @@ img {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #283d3b;
   align-items: center;
   border-bottom: 0.5em solid #edddd4;
