@@ -106,14 +106,13 @@ li a {
   text-decoration: none;
   font-weight: 800;
   transition: 0.25s;
-  font-size: larger;
+  font-size: 20px;
 }
 
 li a:hover {
-  font-size: larger;
+  font-size: 22px;
   color: #ffffff;
   text-decoration: #ffffff underline;
-  font-size: x-large;
   text-shadow: #ffffff;
 }
 
@@ -134,6 +133,7 @@ span.add-label{
 
 #whatb4:hover span.add-label{
  display:block;
+  font-size: 18px;
 }
 
 #whob4:hover span.align{
@@ -142,6 +142,7 @@ span.add-label{
 
 #whob4:hover span.add-label{
  display:block;
+  font-size: 18px;
 }
 
 #whyb4:hover span.align{
@@ -150,6 +151,7 @@ span.add-label{
 
 #whyb4:hover span.add-label{
  display:block;
+  font-size: 18px;
 }
 
 
@@ -159,6 +161,7 @@ span.add-label{
 
 #howb4:hover span.add-label{
  display:block;
+  font-size: 18px;
 }
 
 
@@ -181,15 +184,13 @@ span:hover {
   font-size: larger;
   color: #ffffff;
   text-decoration: #ffffff underline;
-  font-size: x-large;
   text-shadow: #ffffff;
-  transition: 0.25s;
+  transition: 0.12s;
 }
 
 .dropdown-btn {
   background: #283d3b;
   font-size: larger;
-  /* width: 100%; */
   border: none;
   color: #edddd4;
   display: flex;
