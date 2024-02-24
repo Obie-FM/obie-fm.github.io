@@ -205,6 +205,7 @@ span:hover {
   border-right: 5px solid transparent;
   border-top: 6px solid #edddd4;
   transition: transform ease-in-out 0.2s;
+  margin: 8px;
 }
 
 .dropdown-content {
