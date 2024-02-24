@@ -350,6 +350,10 @@ footer {
   margin: auto;
 }
 
+#icon {
+    display: flex;
+    justify-content: center; }
+
 .end {
   color: #edddd4;
 
