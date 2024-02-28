@@ -109,14 +109,13 @@ li a {
   text-decoration: none;
   font-weight: 800;
   transition: 0.25s;
-  font-size: larger;
+  font-size: 20px;
 }
 
 li a:hover {
-  font-size: larger;
+  font-size: 22px;
   color: #ffffff;
   text-decoration: #ffffff underline;
-  font-size: x-large;
   text-shadow: #ffffff;
 }
 
