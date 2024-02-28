@@ -299,7 +299,8 @@ h2 {
   justify-content: center;
   padding: 1em;
   color: #C44536;
-  margin: 0;
+  max-width: 500px;
+  text-align: center;
 }
 
 .row {
