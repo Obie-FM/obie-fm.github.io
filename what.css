@@ -436,6 +436,11 @@ thead {
   text-decoration: none;
 }
 
+.fact{
+    color: #772E25;
+    text-align: center;
+}
+
 .fa {
   padding: 10px;
     text-align: center;
