@@ -295,11 +295,11 @@ h2 {
 }
 
 .general {
-  display: flex;
-  justify-content: center;
-  padding: 1em;
+  display: block;
   color: #C44536;
-  max-width: 500px;
+  max-width: 900px;
+  padding: 1em;
+  margin: auto;
   text-align: center;
 }
 
