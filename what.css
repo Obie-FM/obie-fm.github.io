@@ -304,6 +304,11 @@ h2 {
   margin-bottom: 30px;
 }
 
+h3 {
+    color: #772E25;
+    text-align: center;
+}
+
 table {
   table-layout: auto;
   width: 100%;
