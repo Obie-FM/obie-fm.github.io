@@ -297,7 +297,7 @@ h2 {
 .general {
   display: block;
   color: #C44536;
-  max-width: 900px;
+  max-width: 1000px;
   padding: 1em;
   margin: auto;
   text-align: center;
@@ -317,12 +317,7 @@ h2 {
   padding: 0 4px;
 }
 
-/* .column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-  margin: 1em;
-} */
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
