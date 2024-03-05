@@ -291,7 +291,7 @@ h1 {
 .active,
 .accordion:hover {
   background-color: #edddd4;
-  color: ##B80C09;
+  color: #B80C09;
 }
 
 /* Style the accordion panel. Note: hidden by default */
