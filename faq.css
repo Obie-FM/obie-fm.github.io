@@ -275,7 +275,7 @@ h1 {
 } */
 
 .accordion {
-  background-color: #772e25;
+  background-color: #B80C09;
   color: #edddd4;
   cursor: pointer;
   padding: 18px;
@@ -291,13 +291,13 @@ h1 {
 .active,
 .accordion:hover {
   background-color: #edddd4;
-  color: #772e25;
+  color: ##B80C09;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
-  background-color: #c44536;
+  background-color: #DB4C40;
   color: #edddd4;
   display: none;
   overflow: hidden;
@@ -317,7 +317,7 @@ h1 {
 .accordion:hover:after {
   content: "\00ff0b"; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
-  color: #772e25;
+  color: #B80C09;
   float: right;
   margin-left: 5px;
   display: block;
@@ -326,7 +326,7 @@ h1 {
 
 .active:after {
   content: "\2212"; /* Unicode character for "minus" sign (-) */
-  color: #772e25;
+  color: #B80C09;
 }
 
 
