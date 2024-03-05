@@ -293,6 +293,9 @@ h2 {
 #survey {
   text-align: center;
   color: #c44536;
+  max-width: 1100px;
+  text-align: center;
+  margin: auto;
 }
 
 .fa {
