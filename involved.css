@@ -331,6 +331,9 @@ h2 {
   padding-right: 1.25em;
   padding-bottom: 1.25em;
   font-family: "DM Sans", sans-serif;
+   max-width: 1100px;
+    text-align: center;
+    margin: auto;
 }
 
 .secondhalf {
