@@ -284,7 +284,7 @@ h1 {
   border-bottom: 0.1em solid #edddd4;
   outline: none;
   transition: 0.4s;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -305,23 +305,21 @@ h1 {
 
 .accordion:after {
   content: "\00ff0b"; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
   color: #edddd4;
   float: right;
   margin-left: 5px;
   display: block;
-  font-size: 15px;
+  font-size: 1.5em;
 }
 
 .active,
 .accordion:hover:after {
   content: "\00ff0b"; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
   color: #B80C09;
   float: right;
   margin-left: 5px;
   display: block;
-  font-size: 15px;
+  font-size: 1.5em;
 }
 
 .active:after {
