@@ -1,12 +1,12 @@
 body,
 html {
-    margin-left: 0;
-   margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
   font-family: "Nunito Sans", sans-serif;
-    background-image: linear-gradient(#edddd4, #fff);
-     padding: 0;
-    width: 100%;
-    scroll-behavior: smooth;
+  background-image: linear-gradient(#3a3042, #b80c09);
+  padding: 0;
+  width: 100%;
+  scroll-behavior: smooth;
 }
 
 .nunito-sans-regular {
@@ -33,7 +33,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #3A3042;
+  background-color: #3a3042;
   align-items: center;
   border-bottom: 0.5em solid #edddd4;
   position: relative;
@@ -90,7 +90,7 @@ nav {
 }
 
 li {
-  background-color: #3A3042;
+  background-color: #3a3042;
   margin: 0;
   padding: 1.25em;
   list-style-type: none;
@@ -116,51 +116,49 @@ li a:hover {
 ul {
   list-style-type: none;
   margin: 0;
-  background-color: #3A3042;
+  background-color: #3a3042;
   display: flex;
 }
 
-span.add-label{
- display:none;
+span.add-label {
+  display: none;
 }
 
-#whatb4:hover span.align{
- display:none;
+#whatb4:hover span.align {
+  display: none;
 }
 
-#whatb4:hover span.add-label{
- display:block;
-    font-size: 18px;
+#whatb4:hover span.add-label {
+  display: block;
+  font-size: 18px;
 }
 
-#whob4:hover span.align{
- display:none;
+#whob4:hover span.align {
+  display: none;
 }
 
-#whob4:hover span.add-label{
- display:block;
-    font-size: 18px;
+#whob4:hover span.add-label {
+  display: block;
+  font-size: 18px;
 }
 
-#whyb4:hover span.align{
- display:none;
+#whyb4:hover span.align {
+  display: none;
 }
 
-#whyb4:hover span.add-label{
- display:block;
-    font-size: 18px;
+#whyb4:hover span.add-label {
+  display: block;
+  font-size: 18px;
 }
 
-
-#howb4:hover span.align{
- display:none;
+#howb4:hover span.align {
+  display: none;
 }
 
-#howb4:hover span.add-label{
- display:block;
-    font-size: 18px;
+#howb4:hover span.add-label {
+  display: block;
+  font-size: 18px;
 }
-
 
 .involved {
   max-width: 10em;
@@ -186,7 +184,7 @@ span:hover {
 }
 
 .dropdown-btn {
-  background: #3A3042;
+  background: #3a3042;
   font-size: larger;
   /* width: 100%; */
   border: none;
@@ -196,7 +194,7 @@ span:hover {
   flex-direction: row;
   border-radius: 0.5em;
   cursor: pointer;
-      font-weight: 700;
+  font-weight: 700;
 }
 
 .arrow {
@@ -211,7 +209,7 @@ span:hover {
   list-style: none;
   position: absolute;
   left: -100%;
-   top: 100%;
+  top: 100%;
   visibility: hidden;
   overflow: visible;
   flex-wrap: wrap;
@@ -220,7 +218,7 @@ span:hover {
 }
 
 .dropdown-content li {
-  background-image: linear-gradient(#3A3042, #edddd4);
+  background-image: linear-gradient(#3a3042, #edddd4);
   border-radius: 0.5em;
   position: relative;
   width: 100%;
@@ -241,7 +239,7 @@ span:hover {
 }
 
 .dropdown-content li:hover {
-  background-image: linear-gradient(#A595B2, #edddd4);
+  background-image: linear-gradient(#a595b2, #edddd4);
   color: #edddd4;
 }
 
@@ -252,7 +250,6 @@ span:hover {
   margin: 0.1em 0;
   text-decoration: none;
 }
-
 
 .sticky {
   position: fixed;
@@ -265,10 +262,8 @@ span:hover {
   padding-top: 60px;
 }
 
-
 h1 {
   color: #edddd4;
-  background-color: #B80C09;
   text-align: center;
   font-weight: 700;
   text-decoration: #edddd4 overline;
@@ -278,7 +273,7 @@ h1 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-top: 1em;
-  padding-bottom: .5em;
+  padding-bottom: 0.5em;
   border: 2em;
   border-radius: 30px;
   margin: 20px;
@@ -296,11 +291,11 @@ h2 {
 
 .general {
   display: block;
-  color: #C44536;
+  color: #edddd4;
   max-width: 1100px;
   padding: 1em;
   margin: auto;
-    font-weight: 600;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -317,8 +312,6 @@ h2 {
   max-width: 25%;
   padding: 0 4px;
 }
-
-
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -349,14 +342,14 @@ h2 {
 }
 
 .reveal {
-position: absolute;
+  position: absolute;
   text-align: center;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 300px;
   font-size: larger;
-  color: #EDDDD4;
+  color: #edddd4;
   font-style: italic;
 }
 
@@ -370,7 +363,7 @@ position: absolute;
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #C44536;
+  background-color: #edddd4;
 }
 
 .container:hover .overlay {
@@ -378,7 +371,7 @@ position: absolute;
 }
 
 .text {
-  color: white;
+  color: #b80c09;
   position: relative;
   top: 50%;
   left: 50%;
@@ -389,12 +382,12 @@ position: absolute;
   font-size: 1vw;
 }
 
-
 .fa {
   padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 70%; }
+  text-align: center;
+  text-decoration: none;
+  border-radius: 70%;
+}
 
 /* Add a hover effect if you want */
 .fa:hover {
@@ -419,17 +412,11 @@ position: absolute;
   color: white;
 }
 
-
 footer {
-  border-top: 0.5rem solid #edddd4;
   display: block;
-  background-color: #3A3042;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding: 30px;
-  margin: auto;
+  background-color: #b80c09;
+  padding: 15px;
+  margin: 0;
   text-align: center;
 }
 
@@ -441,3 +428,4 @@ footer {
   margin-inline-start: 0em;
   margin-inline-end: 0em;
 }
+
