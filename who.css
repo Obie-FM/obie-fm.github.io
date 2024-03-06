@@ -35,7 +35,7 @@ nav {
   justify-content: space-between;
   background-color: #3a3042;
   align-items: center;
-  border-bottom: 0.5em solid #edddd4;
+  border-bottom: 0.25em solid #edddd4;
   position: relative;
   z-index: 300;
 }
@@ -415,6 +415,7 @@ h2 {
 footer {
   display: block;
   background-color: #b80c09;
+   border-top: 0.25em solid #edddd4;
   padding: 15px;
   margin: 0;
   text-align: center;
