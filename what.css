@@ -1,18 +1,18 @@
 body,
 html {
-    margin-left: 0;
-   margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
   padding: 0;
-    width: 100%;
-    scroll-behavior: smooth; 
+  width: 100%;
+  scroll-behavior: smooth;
   font-family: "Nunito Sans", sans-serif;
-    background-image: linear-gradient(#edddd4, #fff);
+  background-image: linear-gradient(#3a3042, #b80c09);
 }
 
 .nunito-sans-regular {
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
   font-variation-settings: "wdth" 100, "YTLC" 500;
 }
@@ -38,7 +38,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #3A3042;
+  background-color: #3a3042;
   align-items: center;
   border-bottom: 0.5em solid #edddd4;
   position: relative;
@@ -95,7 +95,7 @@ nav {
 }
 
 li {
-  background-color: #3A3042;
+  background-color: #3a3042;
   margin: 0;
   padding: 1.25em;
   list-style-type: none;
@@ -121,51 +121,49 @@ li a:hover {
 ul {
   list-style-type: none;
   margin: 0;
-  background-color: #3A3042;
+  background-color: #3a3042;
   display: flex;
 }
 
-span.add-label{
- display:none;
+span.add-label {
+  display: none;
 }
 
-#whatb4:hover span.align{
- display:none;
+#whatb4:hover span.align {
+  display: none;
 }
 
-#whatb4:hover span.add-label{
- display:block;
-    font-size: 18px;
+#whatb4:hover span.add-label {
+  display: block;
+  font-size: 18px;
 }
 
-#whob4:hover span.align{
- display:none;
+#whob4:hover span.align {
+  display: none;
 }
 
-#whob4:hover span.add-label{
- display:block;
-    font-size: 18px;
+#whob4:hover span.add-label {
+  display: block;
+  font-size: 18px;
 }
 
-#whyb4:hover span.align{
- display:none;
+#whyb4:hover span.align {
+  display: none;
 }
 
-#whyb4:hover span.add-label{
- display:block;
-    font-size: 18px;
+#whyb4:hover span.add-label {
+  display: block;
+  font-size: 18px;
 }
 
-
-#howb4:hover span.align{
- display:none;
+#howb4:hover span.align {
+  display: none;
 }
 
-#howb4:hover span.add-label{
- display:block;
-    font-size: 18px;
+#howb4:hover span.add-label {
+  display: block;
+  font-size: 18px;
 }
-
 
 .involved {
   max-width: 10em;
@@ -191,7 +189,7 @@ span:hover {
 }
 
 .dropdown-btn {
-  background: #3A3042;
+  background: #3a3042;
   font-size: larger;
   /* width: 100%; */
   border: none;
@@ -201,7 +199,7 @@ span:hover {
   flex-direction: row;
   border-radius: 0.5em;
   cursor: pointer;
-      font-weight: 700;
+  font-weight: 700;
 }
 
 .arrow {
@@ -216,7 +214,7 @@ span:hover {
   list-style: none;
   position: absolute;
   left: -100%;
-   top: 100%;
+  top: 100%;
   visibility: hidden;
   overflow: visible;
   flex-wrap: wrap;
@@ -225,7 +223,7 @@ span:hover {
 }
 
 .dropdown-content li {
-  background-image: linear-gradient(#3A3042, #edddd4);
+  background-image: linear-gradient(#3a3042, #edddd4);
   border-radius: 0.5em;
   position: relative;
   width: 100%;
@@ -246,7 +244,7 @@ span:hover {
 }
 
 .dropdown-content li:hover {
-  background-image: linear-gradient(#A595B2, #edddd4);
+  background-image: linear-gradient(#a595b2, #edddd4);
   color: #edddd4;
 }
 
@@ -276,21 +274,17 @@ img {
   margin-right: auto;
   border-radius: 50px;
   padding: 1em;
+  border: 0.5em;
 }
 
 h1 {
   color: #edddd4;
-  background-color: #B80C09;
   text-align: center;
   font-weight: 700;
   text-decoration: #edddd4 overline;
   display: block;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  font-size: 2.5em;
+  padding-top: 0.5em;
   border: 2em;
   border-radius: 30px;
   margin: 20px;
@@ -307,11 +301,10 @@ h2 {
   margin-inline-end: 40px;
 }
 
-
 h3 {
-    color: #772E25;
-    text-align: center;
-    font-style: bold;
+  color: #edddd4;
+  text-align: center;
+  font-style: bold;
 }
 
 table {
@@ -321,8 +314,11 @@ table {
   text-align: center;
   display: block;
   padding-bottom: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-spacing: 15px;
+  margin-right: 1em;
+  margin-left: 1em;
 }
 
 thead {
@@ -331,17 +327,17 @@ thead {
 }
 
 .headfirst {
-  color: #9e2a2b;
-  text-decoration: overline #9e2a2b;
+  color: #edddd4;
+  text-decoration: overline #edddd4;
   font-size: 25px;
 }
 
-.headfirst:hover {
+/* .headfirst:hover {
   font-size: 30px;
-}
+} */
 
 .headsecond {
-  color: #7e1014;
+  color: #edddd4;
   font-size: 22px;
 }
 .first {
@@ -354,60 +350,61 @@ thead {
   font-size: 1.9em;
   padding: 1.25em;
   text-decoration: overline;
-  color: #a12b2d;
+  color: #edddd4;
 }
 
 .one {
   background-color: #9e2a2b;
   color: #edddd4;
-  font-size: 1.1em;
+  font-size: 1.2em;
   border-radius: 10px;
 }
 
-.one:hover {
+/* .one:hover {
   font-size: 1.25em;
   transition: 0.02s;
-}
+} */
 
 .two {
   background-color: #b12f31;
   color: #edddd4;
-  font-size: 1.1em;
+  font-size: 1.2em;
   border-radius: 10px;
 }
 
-.two:hover {
+/* .two:hover {
   font-size: 1.25em;
   transition: 0.02s;
-}
+} */
 
 .three {
   background-color: #c13336;
   color: #edddd4;
-  font-size: 1.1em;
+  font-size: 1.2em;
   border-radius: 10px;
 }
 
-.three:hover {
+/* .three:hover {
   font-size: 1.25em;
   transition: 0.02s;
-}
+} */
 
 .four {
   background-color: #cc3e40;
   color: #edddd4;
-  font-size: 1.1em;
+  font-size: 1.2em;
   border-radius: 10px;
 }
 
-.four:hover {
+/* .four:hover {
   font-size: 1.25em;
   transition: 0.02s;
-}
+} */
 
 .five {
   background-color: #540b0e;
   color: #edddd4;
+  font-size: 1em;
   border-radius: 10px;
 }
 
@@ -415,22 +412,25 @@ thead {
   background-color: #6c0e11;
   color: #edddd4;
   border-radius: 10px;
+  font-size: 1em;
 }
 
 .seven {
   background-color: #7e1014;
   color: #edddd4;
   border-radius: 10px;
+  font-size: 1em;
 }
 
 .eight {
   background-color: #901317;
   color: #edddd4;
   border-radius: 10px;
+  font-size: 1em;
 }
 
 #decrim {
-  text-decoration: overline #772E25;
+  text-decoration: overline #772e25;
   font-weight: bold;
   font-size: larger;
   color: #ffffff;
@@ -441,16 +441,17 @@ thead {
   text-decoration: none;
 }
 
-.fact{
-    color: #772E25;
-    text-align: center;
+.fact {
+  color: #edddd4;
+  text-align: center;
 }
 
 .fa {
   padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 70%; }
+  text-align: center;
+  text-decoration: none;
+  border-radius: 70%;
+}
 
 /* Add a hover effect if you want */
 .fa:hover {
@@ -476,13 +477,14 @@ thead {
 }
 
 #icon {
-    display: flex;
-    justify-content: center; }
+  display: flex;
+  justify-content: center;
+}
 
 footer {
   display: block;
-  border-top: 0.5rem solid #edddd4;
-  background-color: #3A3042;
+  border-top: 0.25rem solid #edddd4;
+  background-color: #b80c09;
   margin-block-start: 0em;
   margin-block-end: 0em;
   margin-inline-start: 0px;
@@ -493,7 +495,7 @@ footer {
 
 .end {
   color: #edddd4;
-    text-align: center;
+  text-align: center;
   display: block;
   margin-block-start: 0em;
   margin-block-end: auto;
