@@ -301,10 +301,14 @@ h2 {
 
 .3words {
   display: flex;
+  text-align:center;
+  justify-content: center;
 }
 
 .3word {
   display: flex;
+   text-align:center;
+    justify-content: center;
 }
 
 table {
