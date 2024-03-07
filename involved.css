@@ -40,7 +40,7 @@ nav {
   justify-content: space-between;
   background-color: #3A3042;
   align-items: center;
-  border-bottom: 0.5em solid #edddd4;
+  border-bottom: 0.25em solid #edddd4;
   position: relative;
   z-index: 300;
 }
@@ -430,9 +430,9 @@ iframe {
 
 
 footer {
-  border-top: 0.5rem solid #edddd4;
+  border-top: 0.25rem solid #edddd4;
   display: block;
-  background-color: #3A3042;
+  background-color: #b80c09;
   margin-block-start: 0em;
   margin-block-end: 0em;
   margin-inline-start: 0px;
