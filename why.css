@@ -299,6 +299,10 @@ h2 {
 }
 
 
+.3words {
+  display: flex;
+}
+
 .3word {
   display: flex;
 }
