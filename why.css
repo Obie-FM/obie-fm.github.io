@@ -307,7 +307,7 @@ h2 {
   font-size: 2em;
 }
 
-.three {
+#three {
   display: flex;
   text-align: center;
   justify-content: center;
