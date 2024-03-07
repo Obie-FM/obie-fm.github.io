@@ -309,8 +309,10 @@ h2 {
 
 .3word {
   display: flex;
-  text-align:center;
+  text-align: center;
   justify-content: center;
+   color: #edddd4;
+  font-size: 1.4em;
 }
 
 table {
