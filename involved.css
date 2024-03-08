@@ -34,6 +34,7 @@ img {
   width: 1.25em;
 }
 
+
 nav {
   display: flex;
   flex-direction: row;
@@ -340,11 +341,13 @@ h2 {
   padding-top: 20px;
 }
 
+/*
 .form {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+*/
 
 .contact {
   color: #edddd4;
@@ -368,7 +371,7 @@ p.more {
   color: #edddd4;
   text-decoration: #edddd4 overline;
 }
-
+/*
 .fname,
 .lname {
   display: inline-block;
@@ -390,7 +393,11 @@ textarea {
   font-size: small;
   text-align: center;
 }
+ */
 
+#survey {
+  display: flex;
+}
 
 iframe {
       margin: 0 auto;
@@ -457,4 +464,3 @@ footer {
   padding: 1em;
   width: auto;
 }
-
