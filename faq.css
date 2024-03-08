@@ -284,7 +284,7 @@ h1 {
   border-bottom: 0.1em solid #edddd4;
   outline: none;
   transition: 0.4s;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -309,7 +309,7 @@ h1 {
   float: right;
   margin-left: 5px;
   display: block;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 .active,
@@ -319,7 +319,7 @@ h1 {
   float: right;
   margin-left: 5px;
   display: block;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 .active:after {
