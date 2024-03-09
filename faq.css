@@ -257,8 +257,9 @@ span:hover {
 
 
 h1 {
-  color: #A595B2;
-  text-decoration: #A595B2 overline;
+  background-color: #A595B2;
+  color: #edddd4
+  text-decoration: #edddd4 overline;
   text-align: center;
   font-weight: 700;
   display: block;
@@ -269,7 +270,10 @@ h1 {
   margin-inline-end: 0px;
   padding-top: 1.25em;
   padding-bottom: 1.25em;
+  border: 2em;
+  border-radius: 30px;
 }
+
 /* .questions {
   background-image: url("https://www.ilga-europe.org/files/uploads/2018/06/Sex-Workers-Red-Umbrella.jpg");
 } */
