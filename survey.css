@@ -300,14 +300,14 @@ h2 {
 
 .survey {
   text-align: center;
-  color: #b80c09;
+  color: white;
   max-width: 1100px;
   text-align: center;
   font-weight: bold;
   line-height: 2em;
   margin: auto;
-  background-color: #edddd4;
-  opacity: .8;
+  background-color: black;
+  opacity: .7;
     margin-bottom: 1em;
 }
 
