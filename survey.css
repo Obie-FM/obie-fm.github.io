@@ -286,12 +286,14 @@ h2 {
 }
 
 
+
 #background {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2g8GTULuZhvqTZmxRS8ToCr0wPjhxcJXaaINMPzQTy-MJXAiuGOtPAHYeYuA42Q1tbJw&usqp=CAU");
-  background-repeat: repeat;
-  background-attachment: fixed;
-  background-size: 40% auto;
+  background-repeat: round;
+  background-size: 30%;
   margin: 0;
+  background-position: center;
+  padding: 3em;
 }
 
 
