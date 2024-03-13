@@ -9,15 +9,6 @@ html {
     background-image: linear-gradient(#3a3042, #b80c09);
 }
 
-
-#background {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2g8GTULuZhvqTZmxRS8ToCr0wPjhxcJXaaINMPzQTy-MJXAiuGOtPAHYeYuA42Q1tbJw&usqp=CAU");
-  background-repeat: repeat;
-  background-attachment: fixed;
-  background-size: 40% auto;
-  margin: 0;
-}
-
 #hamburger {
   background: transparent;
   border: none;
@@ -293,6 +284,16 @@ h2 {
   margin-inline-end: 10px;
   margin-bottom: 30px;
 }
+
+
+#background {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2g8GTULuZhvqTZmxRS8ToCr0wPjhxcJXaaINMPzQTy-MJXAiuGOtPAHYeYuA42Q1tbJw&usqp=CAU");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 40% auto;
+  margin: 0;
+}
+
 
 .survey {
   text-align: center;
