@@ -406,6 +406,7 @@ thead {
   color: #edddd4;
   font-size: 1em;
   border-radius: 10px;
+    font-weight: bold;
 }
 
 .six {
@@ -413,6 +414,7 @@ thead {
   color: #edddd4;
   border-radius: 10px;
   font-size: 1em;
+    font-weight: bold;
 }
 
 .seven {
@@ -420,6 +422,7 @@ thead {
   color: #edddd4;
   border-radius: 10px;
   font-size: 1em;
+    font-weight: bold;
 }
 
 .eight {
@@ -427,6 +430,7 @@ thead {
   color: #edddd4;
   border-radius: 10px;
   font-size: 1em;
+    font-weight: bold;
 }
 
 #decrim {
