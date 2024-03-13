@@ -294,7 +294,6 @@ h2 {
   margin: 0;
   background-position: center;
   padding: 3em;
-    opacity: .7;
   border-radius: 25px;
     margin-bottom: 1em;
 }
@@ -309,7 +308,7 @@ h2 {
   line-height: 2em;
   margin: auto;
   background-color: white;
-  opacity: .5;
+  opacity: .7;
   border-radius: 25px;
   margin-bottom: 1em;
 }
