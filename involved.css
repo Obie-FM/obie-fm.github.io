@@ -274,9 +274,10 @@ span:hover {
 
 h1 {
   color: #edddd4;
+        background-color: #A595B2;
+  text-decoration: #edddd4 overline;
   text-align: center;
 font-weight: 700;
-  text-decoration: #edddd4 overline;
   display: block;
   padding-top: 1.25em;
   padding-bottom: 1em;
