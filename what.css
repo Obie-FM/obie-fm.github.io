@@ -278,10 +278,12 @@ img {
 }
 
 h1 {
+
+   background-color: #A595B2;
   color: #edddd4;
+  text-decoration: #edddd4 overline;
   text-align: center;
   font-weight: 700;
-  text-decoration: #edddd4 overline;
   display: block;
   font-size: 2.5em;
   padding-top: 0.5em;
@@ -289,6 +291,7 @@ h1 {
   border-radius: 30px;
   margin: 20px;
 }
+
 
 h2 {
   color: #edddd4;
