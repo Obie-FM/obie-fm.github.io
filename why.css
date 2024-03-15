@@ -270,7 +270,7 @@ span:hover {
 .headers {
   z-index: 300;
   border-radius: 20px;
-  margin: 2em 3em 2em 3em;
+  margin-bottom: 2em;
 }
 
 
