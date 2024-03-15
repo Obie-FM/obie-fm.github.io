@@ -275,17 +275,19 @@ span:hover {
 
 
 h1 {
+  background-color: #A595B2;
   color: #edddd4;
+  text-decoration: #edddd4 overline;
   text-align: center;
   font-weight: 700;
   font-size: 2.5em;
-  text-decoration: #edddd4 overline;
   display: block;
   border: 2em;
   border-radius: 30px;
   margin: 20px;
   padding-top: 0.5em;
 }
+
 
 h2 {
   color: #edddd4;
