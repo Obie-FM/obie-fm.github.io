@@ -8,6 +8,7 @@ html {
   font-family: "Nunito Sans", sans-serif;
     background-image: linear-gradient(#3a3042, #b80c09);
 }
+  
 
 #hamburger {
   background: transparent;
@@ -256,19 +257,18 @@ span:hover {
   padding-top: 60px;
 }
 
-
 h1 {
-  color: #3A3042;
+  color: #edddd4;
   text-align: center;
   font-weight: 800;
-  text-decoration: #3A3042 overline;
-  display: block;
+  text-decoration: #edddd4 overline;
   padding-top: 1.25em;
   padding-bottom: .75em;
   border: 2em;
   border-radius: 30px;
   font-size: 2.5em;
   margin: 0;
+
 }
 
 h2 {
@@ -285,6 +285,11 @@ h2 {
   margin-inline-end: 10px;
   margin-bottom: 30px;
 }
+#header {
+  display: block;
+  margin: auto;
+}
+
 
 .survey {
   text-align: center;
@@ -294,9 +299,14 @@ h2 {
   line-height: 2em;
   margin: auto;
   background-color: black;
-  opacity: .4; 
-  padding-bottom: 1em;
+  opacity: .7; 
+  display: flex;
+ border-top: .25em solid #edddd4;
  }
+
+#fubu {
+  max-width: 750px;
+}
 
 #space {
  border-top: .25em solid rgba(237, 221, 212);
