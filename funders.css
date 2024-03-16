@@ -258,7 +258,7 @@ span:hover {
   text-decoration: none;
 }
 
-
+/*
 .sticky {
   position: fixed;
   top: 0;
@@ -268,7 +268,8 @@ span:hover {
 
 .sticky + .content {
   padding-top: 60px;
-}
+} 
+*/
 
 h1 {
   color: #edddd4;
