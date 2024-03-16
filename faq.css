@@ -255,13 +255,7 @@ span:hover {
   text-decoration: none;
 }
 
-#swreal {
-  display: block;
-  width: 60%;
-   margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 1em;
-}
+
 
 h1 {
   background-color: #A595B2;
@@ -277,18 +271,28 @@ h1 {
   margin: 20px;
 }
 
+#swreal {
+  display: block;
+  width: 50%;
+   margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  border: .5em solid #DB4C40;
+  margin-bottom: 1em;
+}
+
 /* .questions {
   background-image: url("https://www.ilga-europe.org/files/uploads/2018/06/Sex-Workers-Red-Umbrella.jpg");
 } */
 
 .accordion {
+  border: 0.15em solid #edddd4;
   background-color: #B80C09;
   color: #edddd4;
   cursor: pointer;
   padding: 18px;
   width: 100%;
   text-align: left;
-  border-bottom: 0.1em solid #edddd4;
   outline: none;
   transition: 0.4s;
   font-size: 1.25em;
