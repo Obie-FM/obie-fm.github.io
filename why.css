@@ -42,7 +42,7 @@ nav {
   align-items: center;
   position: relative;
   z-index: 300;
-  border-bottom: 0.5em solid #edddd4;
+  border-bottom: 0.25em solid #edddd4;
 }
 
 @media screen and (max-width: 755px) {
