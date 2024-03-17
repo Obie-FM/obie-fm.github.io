@@ -38,7 +38,7 @@ nav {
   justify-content: space-between;
   background-color: #3A3042;
   align-items: center;
-  border-bottom: 0.5em solid #edddd4;
+  border-bottom: 0.25em solid #edddd4;
   position: relative;
   z-index: 300;
 }
