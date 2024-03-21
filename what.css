@@ -451,10 +451,13 @@ thead {
 .fact {
   color: #edddd4;
   text-align: center;
+  max-width: 1000px;
 }
 
 iframe {
   background-color: #edddd4;
+  display: block;
+  margin: auto;
 }
 
 .onepagers {
