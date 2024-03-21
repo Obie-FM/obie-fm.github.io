@@ -457,6 +457,10 @@ iframe {
   background-color: #edddd4;
 }
 
+.onepagers {
+  margin: auto;
+}
+
 .fa {
   padding: 10px;
   text-align: center;
