@@ -453,6 +453,10 @@ thead {
   text-align: center;
 }
 
+iframe {
+  background-color: #edddd4;
+}
+
 .fa {
   padding: 10px;
   text-align: center;
