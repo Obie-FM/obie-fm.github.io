@@ -458,11 +458,9 @@ iframe {
   background-color: #edddd4;
   display: block;
   margin: auto;
+  height: 1000px;
 }
 
-.onepagers {
-  margin: auto;
-}
 
 .fa {
   padding: 10px;
